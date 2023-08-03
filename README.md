@@ -12,7 +12,7 @@ import ImageOne from "../Assets/EventImages/KilburnWeddingTwo.jpg" //Top of the 
 ```
 In every "Page Name".jsx file, each image follows the same structure, which is shown above. First, the desired image must be imported from a folder. Paste the following template code to the top of the necessary page file and change the temporary spaces with your own information:
 ```javascript
-import **YOUR UNIQUE IMAGE NAME WITH NO SPACES** from "../Assets/**YOUR IMAGE FILES NAME".jpg" //Top of the code//
+import **YOUR UNIQUE IMAGE NAME WITH NO SPACES** from "../Assets/**YOUR IMAGE FILES NAME**.jpg" //Top of the code//
 ```
 All of our images are located in the assets folder, but some images are nested in a folder inside the assets folder, so make sure you are importing the image correctly and using the proper path.
 
