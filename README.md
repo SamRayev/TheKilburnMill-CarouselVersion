@@ -12,10 +12,14 @@ import ImageOne from "../Assets/EventImages/KilburnWeddingTwo.jpg" //Top of the 
 ```
 In every "Page Name".jsx file, each image follows the same structure, which is shown above. First, the desired image must be imported from a folder. Paste the following template code to the top of the necessary page file and change the temporary spaces with your own information:
 ```javascript
-import **YOUR UNIQUE IMAGE NAME WITH NO SPACES** from "../Assets/**YOUR IMAGE FILES NAME**.jpg" //Top of the code//
+import **YOUR UNIQUE IMAGE NAME WITH NO SPACES** from "../Assets/ **YOUR IMAGE FILE NAME** .jpg" //Top of the code//
 ```
-All of our images are located in the assets folder, but some images are nested in a folder inside the assets folder, so make sure you are importing the image correctly and using the proper path.
+DISCLAIMER: All of our images are located in the assets folder, but some images are nested in a folder inside the assets folder, so make sure you are importing the image correctly and using the proper path.
 
+After the image is imported and its name is declared, change the src property to the correct image name:
+```javascript
+<img className='wedding' src={**YOUR UNIQUE IMAGE NAME WITH NO SPACES**} /> //The image property//
+```
 ## 1. The Homepage
 To edit the content on the homepage of the website, navigate to the "home.jsx" file in the "client/src/Pages" directory. To edit the styling of the homepage, navigate to the "client/src/Styles/Home.css" file. 
 
@@ -52,3 +56,8 @@ The **"Image_Name"** can be called whatever the user prefers; however, it must m
  The contact form is located below the history section. When a user signs up for the newsletter, their email will be sent to you in an email with the subject "NEW NEWSLETTER SUBSCRIBER - The Kilburn Mill at Clark's Cove". 
 
 ## 2. The Gallery
+This page contains multiple **Image** components. In order to add more images to the gallery, navigate to the gallery.jsx file and add the following code below the current image components:
+```javascript
+<Image className="gallery-item" image={Image} />
+```
+Following the same structure to change an image that is mentioned above, import an image to the top of the file, give it a unique name with no spaces, and change the "image" property to the new image name.
