@@ -1,7 +1,20 @@
 # The Kilburn Mill at Clark's Cove
 ![Kilburn Mill Banner.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Banner.png)
 The following explains the use and maintenance of the Kilburn Mill website.
-The languages used to create this website are **Javascript, CSS, and HTML**. **Javascript** is responsible for the functionality of the website, such as handling the submitted emails and page sizing to make the content fit different screen sizes. Every page and component is available in the **"client/src/Pages"** and **"client/src/Components"** directories. **CSS** is responsible for the styling of the page and each component- how each of the elements on the page look and are oriented. Every individual page has its own stylesheet/CSS file, which is available in the **"client/src/Styles"** directory. Additionally, every image is located in the **"Assets"** folder. 
+The languages used to create this website are **Javascript, CSS, and HTML**. **Javascript** is responsible for the website's functionality, such as handling the submitted emails and page sizing to make the content fit different screen sizes. Each page has its own respective "Page Name".jsx file. Every page is available in the **"client/src/Pages"** directory. Additionally, each page contains multiple components, such as its header, footer, etc. These components are located in the **"client/src/Components"** directory. **CSS** is responsible for the styling of the page and each component - how each of the elements on the page look and are oriented. Every page has its own stylesheet/CSS file, which is available in the **"client/src/Styles"** directory. Additionally, every image is located in the **"Assets"** folder. 
+
+Changing an image on a page is relatively simple!
+Let's use the wedding page as an example: 
+```javascript
+import ImageOne from "../Assets/EventImages/KilburnWeddingTwo.jpg" //Top of the code//
+//Misc. code in between//
+<img className='wedding' src={ImageOne} /> //The image property//
+```
+In every "Page Name".jsx file, each image follows the same structure, which is shown above. First, the desired image must be imported from a folder. Paste the following template code to the top of the necessary page file and change the temporary spaces with your own information:
+```javascript
+import **YOUR UNIQUE IMAGE NAME WITH NO SPACES** from "../Assets/**YOUR IMAGE FILES NAME".jpg" //Top of the code//
+```
+All of our images are located in the assets folder, but some images are nested in a folder inside the assets folder, so make sure you are importing the image correctly and using the proper path.
 
 ## 1. The Homepage
 To edit the content on the homepage of the website, navigate to the "home.jsx" file in the "client/src/Pages" directory. To edit the styling of the homepage, navigate to the "client/src/Styles/Home.css" file. 
@@ -37,3 +50,5 @@ The **"Image_Name"** can be called whatever the user prefers; however, it must m
  #### The Contact Form
  ![Kilburn Mill Contact Form.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Contact%20Form.png)
  The contact form is located below the history section. When a user signs up for the newsletter, their email will be sent to you in an email with the subject "NEW NEWSLETTER SUBSCRIBER - The Kilburn Mill at Clark's Cove". 
+
+## 2. The Gallery
