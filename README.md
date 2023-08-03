@@ -1,8 +1,11 @@
 # The Kilburn Mill at Clark's Cove
 ![Kilburn Mill Banner.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Banner.png)
 The following explains the use and maintenance of the Kilburn Mill website.
-The languages used to create this website are **Javascript, CSS, and HTML**. **Javascript** is responsible for the website's functionality, such as handling the submitted emails and page sizing to make the content fit different screen sizes. Each page has its own respective "Page Name".jsx file. Every page is available in the **"client/src/Pages"** directory. Additionally, each page contains multiple components, such as its header, footer, etc. These components are located in the **"client/src/Components"** directory. **CSS** is responsible for the styling of the page and each component - how each of the elements on the page look and are oriented. Every page has its own stylesheet/CSS file, which is available in the **"client/src/Styles"** directory. Additionally, every image is located in the **"Assets"** folder. 
+The languages used to create this website are **Javascript, CSS, and HTML**. **Javascript** is responsible for the website's functionality, such as handling the submitted emails and page sizing to make the content fit different screen sizes. Each page has its own respective "Page Name".jsx file. Every page is available in the **"client/src/Pages"** directory. Additionally, each page contains multiple components, such as its header, footer, etc. These components are located in the **"client/src/Components"** directory. **CSS** is responsible for the styling of the page and each component - how each of the elements on the page look and are oriented. Every page has its own stylesheet/CSS file, which is available in the **"client/src/Styles"** directory; however, there is one CSS file in the main directory called **App.css**, which handles styling across every page of the website. For example, the font that the website uses is controlled in this CSS file. Additionally, every image is located in the **"Assets"** folder. 
 
+## Basic Changes
+
+### Changing an Image
 Changing an image on a page is relatively simple!
 Let's use the wedding page as an example: 
 ```javascript
@@ -20,6 +23,26 @@ After the image is imported and its name is declared, change the src property to
 ```javascript
 <img className='wedding' src={**YOUR UNIQUE IMAGE NAME WITH NO SPACES**} /> //The image property//
 ```
+
+### Changing The Website's Font
+In order to change the font of the entire website, navigate to the **App.css** file in the **src** directory. The following code is the only code that should be changed:
+```javascript
+@import url("https://use.typekit.net/ffp1rif.css");
+
+//Misc. code in between//
+
+:root {
+  font-family: 'source-sans-pro', sans-serif;
+  font-synthesis: weight;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+```
+The first line imports the font from the web. Fonts can be found here: https://fonts.adobe.com/. In order to add a font from Adobe Fonts, search the catalog for the font you want. Once you find your preferred font and navigate to its respective page, you need to click "Add to Web Project". You will be prompted to create a new web project, which only needs to be named. Once it is named, click "Create". In the example below, the project is named "Template Project".
+
+After creating the project, you will be brought to the following page seen below. Click **@import** in the sentence <ins>"If you'd like to use fonts in HTML email, use the @import link". </ins>
 ## 1. The Homepage
 To edit the content on the homepage of the website, navigate to the "home.jsx" file in the "client/src/Pages" directory. To edit the styling of the homepage, navigate to the "client/src/Styles/Home.css" file. 
 
