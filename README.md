@@ -56,6 +56,7 @@ The **"Image_Name"** can be called whatever the user prefers; however, it must m
  The contact form is located below the history section. When a user signs up for the newsletter, their email will be sent to you in an email with the subject "NEW NEWSLETTER SUBSCRIBER - The Kilburn Mill at Clark's Cove". 
 
 ## 2. The Gallery
+ ![Kilburn Mill Gallery.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Gallery.png)
 This page contains multiple **Image** components. In order to add more images to the gallery, navigate to the gallery.jsx file and add the following code below the current image components:
 ```javascript
 import ImageOne from '../Assets/GalleryImages/ImageOne.jpeg'; //Top of the code//
