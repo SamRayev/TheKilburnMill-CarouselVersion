@@ -58,6 +58,11 @@ The **"Image_Name"** can be called whatever the user prefers; however, it must m
 ## 2. The Gallery
 This page contains multiple **Image** components. In order to add more images to the gallery, navigate to the gallery.jsx file and add the following code below the current image components:
 ```javascript
-<Image className="gallery-item" image={Image} />
+import ImageOne from '../Assets/GalleryImages/ImageOne.jpeg'; //Top of the code//
+//Misc. code in between//
+<img className="gallery-item" src={ImageOne} /> //The image property//
 ```
-Following the same structure to change an image that is mentioned above, import an image to the top of the file, give it a unique name with no spaces, and change the "image" property to the new image name.
+Following the same structure to change an image that is mentioned above, import an image to the top of the file, give it a unique name with no spaces, and change the "src" property to the new image name.
+
+## Further Questions
+If there are any further questions regarding the use of this code, email **srayev12@gmail.com**
