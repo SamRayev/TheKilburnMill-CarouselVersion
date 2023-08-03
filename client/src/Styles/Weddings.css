@@ -1,4 +1,4 @@
-/* Entertainment */
+/* Wedding */
 
 @media screen and (max-width: 768px) {
     .wed-main {
@@ -19,7 +19,7 @@
     }
     
 #left {
-    background: white;
+    background: whitesmoke;
     width: 35%;
 }
 
@@ -152,7 +152,7 @@
 }
 
 #left {
-    background: white;
+    background: whitesmoke;
     width: 35%;
 }
 
