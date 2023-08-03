@@ -1,4 +1,5 @@
 # The Kilburn Mill at Clark's Cove
+![Kilburn Mill Banner.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/Kilburn%20Mill%20Banner.png)
 The following explains the use and maintenance of the Kilburn Mill website.
 The languages used to create this website are **Javascript, CSS, and HTML**. **Javascript** is responsible for the functionality of the website, such as handling the submitted emails and page sizing to make the content fit different screen sizes. Every page and component is available in the **"client/src/Pages"** and **"client/src/Components"** directories. **CSS** is responsible for the styling of the page and each component- how each of the elements on the page look and are oriented. Every individual page has its own stylesheet/CSS file, which is available in the **"client/src/Styles"** directory. Additionally, every image is located in the **"Assets"** folder. 
 
