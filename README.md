@@ -1,5 +1,5 @@
 # The Kilburn Mill at Clark's Cove
-![Kilburn Mill Banner.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/Kilburn%20Mill%20Banner.png)
+![Kilburn Mill Banner.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Banner.png)
 The following explains the use and maintenance of the Kilburn Mill website.
 The languages used to create this website are **Javascript, CSS, and HTML**. **Javascript** is responsible for the functionality of the website, such as handling the submitted emails and page sizing to make the content fit different screen sizes. Every page and component is available in the **"client/src/Pages"** and **"client/src/Components"** directories. **CSS** is responsible for the styling of the page and each component- how each of the elements on the page look and are oriented. Every individual page has its own stylesheet/CSS file, which is available in the **"client/src/Styles"** directory. Additionally, every image is located in the **"Assets"** folder. 
 
@@ -10,6 +10,7 @@ To edit the content on the homepage of the website, navigate to the "home.jsx" f
 The hero image is the largest and top-most image on the home page. In order to change the hero image, navigate to the **Home.css** file and find the **".hero"** section. In this section, the **background-image** attribute is defined by the following image url: **'../Assets/HeroImage.jpg'**. The images are located in the Assets folder. In order to change the image, add a new picture to the 'Assets' folder and change the 'HeroImage.jpg' part of the background-image url to the name of the new image and save the file.
 
  #### The Event Carousel
+ ![Kilburn Mill Event Carousel.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Events.png)
 The event carousel is positioned below the hero image. Each event is written in the code as a card component. The following shows the code:
 ```javascript
 <Card
