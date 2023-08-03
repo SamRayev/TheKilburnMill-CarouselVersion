@@ -42,7 +42,9 @@ In order to change the font of the entire website, navigate to the **App.css** f
 ```
 The first line imports the font from the web. Fonts can be found here: https://fonts.adobe.com/. In order to add a font from Adobe Fonts, search the catalog for the font you want. Once you find your preferred font and navigate to its respective page, you need to click "Add to Web Project". You will be prompted to create a new web project, which only needs to be named. Once it is named, click "Create". In the example below, the project is named "Template Project".
 ![Kilburn Mill Font One.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Font%20One.png)
+
 After creating the project, you will be brought to the following page seen below. Click **@import** in the sentence <ins>"If you'd like to use fonts in HTML email, use the @import link." </ins>
+
 ![Kilburn Mill Font Two.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Font%20Two.png)
 ![Kilburn Mill Font Three.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Font%20Three.png)
 ## 1. The Homepage
