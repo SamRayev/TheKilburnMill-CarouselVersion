@@ -67,3 +67,4 @@ Following the same structure to change an image that is mentioned above, import 
 
 ## Further Questions
 If there are any further questions regarding the use of this code, email **srayev12@gmail.com**
+React Email Services: https://dashboard.emailjs.com/admin
