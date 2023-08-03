@@ -35,4 +35,5 @@ The **"Image_Name"** can be called whatever the user prefers; however, it must m
 ```
 
  #### The Contact Form
+ ![Kilburn Mill Contact Form.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Contact%20Form.png)
  The contact form is located below the history section. When a user signs up for the newsletter, their email will be saved to the **emails.txt** file in the server folder.
