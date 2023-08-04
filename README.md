@@ -10,13 +10,26 @@ In order to easily make changes to this codebase, follow the steps below.
 3. Finally, navigate to the following link to install Git: https://github.com/git-guides/install-git. Git is used for managing basic functionality that is needed for downloading the code.  
 4. In Visual Studio Code, open a new terminal as it is shown below:
 ![Kilburn Mill Visual Studio Code One.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Visual%20Studio%20Code%20One.png)
-5. In the command terminal, enter the following:
+
+6. In the command terminal, enter the following:
    ```console
    git clone https://github.com/SamRayev/TheKilburnMill-OfficialWebsite.git KilburnMillDev
    ```
    The "KilburnMillDev" part of the code is the name of the new folder that is created to hold the code you are downloading from GitHub. The current folder name is only a template; it can be called anything.
    ![Kilburn Mill Visual Studio Code Two.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Visual%20Studio%20Code%20Two.png)
-7. 
+   
+8. After the files are successfully installed from GitHub, use the following console code to navigate to the new folder:
+   ```console
+   cd KilburnMillDev
+   ```
+   The "cd" term means "change directory".
+
+   Now, go to the console again and enter the following code in the console to navigate to the **client** directory:
+   ```console
+   cd client
+   ```
+   
+10. 
 
 ## Basic Changes
 NOTE: If any changes are made, make sure to save the project.
