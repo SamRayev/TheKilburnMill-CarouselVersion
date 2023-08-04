@@ -6,8 +6,11 @@ The languages used to create this website are **Javascript, CSS, and HTML**. **J
 ## How to Edit the Code
 In order to easily make changes to this codebase, follow the steps below. 
 1. You need to open this code in an IDE (Integrated Developing Environment). One popular and easy-to-use IDE that can be downloaded on Mac, Linux, and Windows systems is **Visual Studio Code**. Click the following link to install Visual Studio Code: https://code.visualstudio.com/download.
+
 2. After Visual Studio Code is installed, install NodeJS here: https://nodejs.org/en/download. Within Visual Studio Code, you will need to enter a couple of basic codes into the command line. NodeJS is necessary for entering these pieces of code and making them work.
+
 3. Finally, navigate to the following link to install Git: https://github.com/git-guides/install-git. Git is used for managing basic functionality that is needed for downloading the code.  
+
 4. In Visual Studio Code, open a new terminal as it is shown below:
 ![Kilburn Mill Visual Studio Code One.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Visual%20Studio%20Code%20One.png)
 
@@ -29,8 +32,19 @@ In order to easily make changes to this codebase, follow the steps below.
    cd client
    ```
    
-10. Now, once you are in the client directory enter the following code into the command line:
-
+10. This is the final step to set up your project. Once you are in the client directory, enter the following code into the command line:
+   ```console
+   npm install
+   ```
+   This will install all the necessary dependencies in the package.json file and will enable you to run the site.
+   
+11. Now, to start the site, enter the following code into the command line:
+   ```console
+   npm start
+   ```
+   This code in the command line will open a development version of the website in your default browser. Since this is only a development version, it will open in a URL called "http://localhost:3000/". 
+   Localhost means that this site is being locally hosted on your machine, meaning that it is not the public version of the site and only the person hosting it can access it. 
+   
 ## Basic Changes
 *NOTE: If any changes are made, make sure to save the project.*
 
