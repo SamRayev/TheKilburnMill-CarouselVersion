@@ -3,11 +3,19 @@
 The following explains the use and maintenance of the Kilburn Mill website.
 The languages used to create this website are **Javascript, CSS, and HTML**. **Javascript** is responsible for the website's functionality, such as handling the submitted emails and page sizing to make the content fit different screen sizes. Each page has its own respective "Page Name".jsx file. Every page is available in the **"client/src/Pages"** directory. Additionally, each page contains multiple components, such as its header, footer, etc. These components are located in the **"client/src/Components"** directory. **CSS** is responsible for the styling of the page and each component - how each of the elements on the page look and are oriented. Every page has its own stylesheet/CSS file, which is available in the **"client/src/Styles"** directory; however, there is one CSS file in the main directory called **App.css**, which handles styling across every page of the website. For example, the font that the website uses is controlled in this CSS file. Additionally, every image is located in the **"Assets"** folder. 
 
-## How to Open the Code in Developer Mode
+## How to Edit the Code
 In order to easily make changes to this codebase, follow the steps below. 
 1. You need to open this code in an IDE (Integrated Developing Environment). One popular and easy-to-use IDE that can be downloaded on Mac, Linux, and Windows systems is **Visual Studio Code**. Click the following link to install Visual Studio Code: https://code.visualstudio.com/download.
-2. After Visual Studio Code is installed, install NodeJS here: https://nodejs.org/en/download. Within Visual Studio Code, you will need to enter a couple of basic codes into the command line. NodeJS is necessary for entering these pieces of code and making them work. 
+2. After Visual Studio Code is installed, install NodeJS here: https://nodejs.org/en/download. Within Visual Studio Code, you will need to enter a couple of basic codes into the command line. NodeJS is necessary for entering these pieces of code and making them work.
+3. Finally, navigate to the following link to install Git: https://github.com/git-guides/install-git. Git is used for managing basic functionality that is needed for downloading the code.  
+4. In Visual Studio Code, open a new terminal as it is shown below:
 
+5. In the command terminal, enter the following:
+   ```console
+   git clone https://github.com/SamRayev/TheKilburnMill-OfficialWebsite.git KilburnMillDev
+   ```
+   The "KilburnMillDev" part of the code is the name of the new folder that is created to hold the code you are downloading from GitHub. The current folder name is only a template; it can be called anything.
+7. 
 
 ## Basic Changes
 NOTE: If any changes are made, make sure to save the project.
