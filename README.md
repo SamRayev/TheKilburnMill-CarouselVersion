@@ -92,6 +92,44 @@ After creating the project, you will be brought to the following page seen below
 
 Copy the import URL. In this example it is **@import url("https://use.typekit.net/gao5dmc.css");**. Replace the old import statement at the top of the CSS file with the new one. Now, copy the CSS code for the font-family that is also shown below. In this case, it is **font-family: "source-serif-pro", serif;**. Simply delete the current line in the **:root** section of the code shown above and paste the new line in its place. 
 ![Kilburn Mill Font Three.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Font%20Three.png)
+
+### Adding New Pages
+Every page has its own **/page_name** extension that connects it to the flow of the website. These are called **Routes** and every route can be seen in the App.jsx file, which is available in the src directory. Below I will provide a basic example of how this file works and how to add more pages:
+
+```javascript
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+import Home from "./Pages/home";
+
+//At the bottom of the home.jsx file, there is an export statement that says "Export Default Home;" This statement wraps all the code in the file into the singular "Home" element. At the top of the App.jsx file, you import the Home element and state where you imported it from. This applies to every other page. If you create a new page, make sure it is created in the src/Pages/ directory. The file name must follow the following conditions:
+ - Lowercase
+ - No Spaces
+ - No Special Characters
+ - Must end in .jsx"
+
+To integrate this new page into the flow of the website, copy the import template below and replace the filler code with your own//
+import EXPORTED_PAGE_NAME from "./Pages/PAGE_FILE_NAME"; //Importing the code for the Homepage from the home file in the Pages directory//
+
+import './App.css';
+
+function App() {
+  return (
+    <div className="app-container">
+      <Router>
+        <div className="content-container">
+          <Routes>
+            <Route path="/" element={<Home />}></Route> //The default path is set to the Home page, which is specified by the element property.//
+            <Route path="/YOUR_DESIRED_PATH_NAME" element={<EXPORTED_PAGE_NAME />}></Route> //This is a template that you can fill with your own information//
+          </Routes>
+        </div>
+      </Router>
+    </div>
+  );
+}
+
+export default App;
+```
+
 ## 2. The Homepage
 To edit the content on the homepage of the website, navigate to the "home.jsx" file in the "client/src/Pages" directory. To edit the styling of the homepage, navigate to the "client/src/Styles/Home.css" file. 
 
