@@ -32,7 +32,7 @@ In order to easily make changes to this codebase, follow the steps below.
 10. Now, once you are in the client directory enter the following code into the command line:
 
 ## Basic Changes
-NOTE: If any changes are made, make sure to save the project.
+*NOTE: If any changes are made, make sure to save the project.*
 
 ### Changing an Image
 Changing an image on a page is relatively simple!
@@ -46,7 +46,7 @@ In every "Page Name".jsx file, each image follows the same structure, which is s
 ```javascript
 import **YOUR UNIQUE IMAGE NAME WITH NO SPACES** from "../Assets/ **YOUR IMAGE FILE NAME** .jpg" //Top of the code//
 ```
-DISCLAIMER: All of our images are located in the assets folder, but some images are nested in a folder inside the assets folder, so make sure you are importing the image correctly and using the proper path.
+*DISCLAIMER: All of our images are located in the assets folder, but some images are nested in a folder inside the assets folder, so make sure you are importing the image correctly and using the proper path.*
 
 After the image is imported and its name is declared, change the src property to the correct image name:
 ```javascript
