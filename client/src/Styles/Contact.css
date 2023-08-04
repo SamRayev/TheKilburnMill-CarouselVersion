@@ -8,7 +8,7 @@
 
     #Contact-hero {
         top: 0;
-        background-image: url('C:\Users\Pavli\OtherWebsites\KilburnFinal\client\src\Assets\Contact.jpg');
+        background-image: url('C:\Users\Pavli\OtherWebsites\KilburnFinal\client\src\Assets\Contact.jpg'); /* The Banner Image URL */
         background-size: cover;
         background-position: center;
         width: auto;
@@ -43,7 +43,7 @@
     }
 
     #hero-btn {
-        background: black;
+        background: black; /* The Button Color */
         font-size: 14px;
         color: white;
         font-weight: bold;
@@ -58,7 +58,7 @@
     }
 
     .left-secondary {
-        background: #CCCCCC;
+        background: #CCCCCC; /* The Section Color */
         position: relative;
         width: 100vw;
         padding: 60px;
