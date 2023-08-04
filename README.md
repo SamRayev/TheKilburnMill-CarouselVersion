@@ -17,7 +17,7 @@ In order to easily make changes to this codebase, follow the steps below.
 ```console
 git clone https://github.com/SamRayev/TheKilburnMill-OfficialWebsite.git KilburnMillDev
 ```
-The *KilburnMillDev* part of the code is the name of the new folder that is created to hold the code you are downloading from GitHub. The current folder name is only a template; it can be called anything. ![Kilburn Mill Visual Studio Code Two.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Visual%20Studio%20Code%20Two.png)
+   The *KilburnMillDev* part of the code is the name of the new folder that is created to hold the code you are downloading from GitHub. The current folder name is only a template; it can be called anything. ![Kilburn Mill Visual Studio Code Two.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Visual%20Studio%20Code%20Two.png)
    
 7. After the files are successfully installed from GitHub, use the following console code to navigate to the new folder:
    ```console
