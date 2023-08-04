@@ -13,13 +13,13 @@ In order to easily make changes to this codebase, follow the steps below.
 
 4. In Visual Studio Code, open a new terminal as it is shown below: ![Kilburn Mill Visual Studio Code One.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Visual%20Studio%20Code%20One.png)
 
-6. In the command terminal, enter the following:
+5. In the command terminal, enter the following:
    ```console
    git clone https://github.com/SamRayev/TheKilburnMill-OfficialWebsite.git KilburnMillDev
    ```
    The *KilburnMillDev* part of the code is the name of the new folder that is created to hold the code you are downloading from GitHub. The current folder name is only a template; it can be called anything. ![Kilburn Mill Visual Studio Code Two.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Visual%20Studio%20Code%20Two.png)
    
-7. After the files are successfully installed from GitHub, use the following console code to navigate to the new folder:
+6. After the files are successfully installed from GitHub, use the following console code to navigate to the new folder:
    ```console
    cd KilburnMillDev
    ```
@@ -30,12 +30,12 @@ In order to easily make changes to this codebase, follow the steps below.
    cd client
    ```
    
-8. This is the final step to set up your project and enable you to run the site. Once you are in the client directory, enter the following code into the command line to install all the necessary dependencies in the package.json file:
+7 This is the final step to set up your project and enable you to run the site. Once you are in the client directory, enter the following code into the command line to install all the necessary dependencies in the package.json file:
    ```console
    npm install
    ```
    
-9. Now, to start the site, enter the following code into the command line:
+8. Now, to start the site, enter the following code into the command line:
    ```console
    npm start
    ```
