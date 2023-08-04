@@ -17,13 +17,13 @@ In order to easily make changes to this codebase, follow the steps below.
    ```console
    git clone https://github.com/SamRayev/TheKilburnMill-OfficialWebsite.git KilburnMillDev
    ```
-   The *KilburnMillDev* part of the code is the name of the new folder that is created to hold the code you are downloading from GitHub. The current folder name is only a template; it can be called anything. ![Kilburn Mill Visual Studio Code Two.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Visual%20Studio%20Code%20Two.png)
+   The *KilburnMillDev* part of the code is the name of the new folder that is created to hold the code you are downloading from GitHub. The current folder name is only a template; however, it can be called anything of your choosing. ![Kilburn Mill Visual Studio Code Two.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Visual%20Studio%20Code%20Two.png)
    
 6. After the files are successfully installed from GitHub, use the following console code to navigate to the new folder:
    ```console
    cd KilburnMillDev
    ```
-   The "cd" term means "change directory".
+   *NOTE: The "cd" term means "change directory".*
 
    Now, go to the console again and enter the following code in the console to navigate to the **client** directory:
    ```console
@@ -39,8 +39,11 @@ In order to easily make changes to this codebase, follow the steps below.
    ```console
    npm start
    ```
-   This code in the command line will open a development version of the website in your default browser. Since this is only a development version, it will open in a URL called "http://localhost:3000/". 
-   Localhost means that this site is being locally hosted on your machine, meaning that it is not the public version of the site and only the person hosting it can access it. 
+   In order to terminate the current instance of the site/turn off the development server, all a user needs to do is go back to the console and do **cmd+c**.
+   
+This code in the command line will open a development version of the website in your default browser. Since this is only a development version, it will open in a URL called "http://localhost:3000/". Localhost means that this site is being locally hosted on your machine, meaning that it is not the public version of the site and only the person hosting it can access it. The benefit of this site being created with ReactJS, a Javascript framework, is that while the site is running, it can be actively updated to instantly see changes that are made to the code.
+
+To actively view changes made to the site, the local host server must be running. Then, if a user edits a file and saves it, Visual Studio Code will automatically refresh the page in your browser and show the updated changes.
    
 ## Basic Changes
 *NOTE: If any changes are made, make sure to save the project.*
