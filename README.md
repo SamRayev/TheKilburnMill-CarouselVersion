@@ -145,6 +145,8 @@ function App() {
 export default App;
 ```
 
+*Tutorial if needed: https://www.youtube.com/watch?v=TWz4TjSssbg*
+
 ### Adding Videos
 Adding videos is simple! Similar to the method used to add an image, import the mp4 file from the assets folder:
 
