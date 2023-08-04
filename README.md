@@ -45,7 +45,7 @@ This code in the command line will open a development version of the website in 
 
 To actively view changes made to the site, the local host server must be running. Then, if a user edits a file and saves it, Visual Studio Code will automatically refresh the page in your browser and show the updated changes.
    
-## Basic Changes
+## 1. Basic Changes
 *NOTE: If any changes are made, make sure to save the project.*
 
 ### Changing an Image
@@ -92,7 +92,7 @@ After creating the project, you will be brought to the following page seen below
 
 Copy the import URL. In this example it is **@import url("https://use.typekit.net/gao5dmc.css");**. Replace the old import statement at the top of the CSS file with the new one. Now, copy the CSS code for the font-family that is also shown below. In this case, it is **font-family: "source-serif-pro", serif;**. Simply delete the current line in the **:root** section of the code shown above and paste the new line in its place. 
 ![Kilburn Mill Font Three.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Font%20Three.png)
-## 1. The Homepage
+## 2. The Homepage
 To edit the content on the homepage of the website, navigate to the "home.jsx" file in the "client/src/Pages" directory. To edit the styling of the homepage, navigate to the "client/src/Styles/Home.css" file. 
 
  #### The Hero Image 
@@ -127,7 +127,7 @@ The **"Image_Name"** can be called whatever the user prefers; however, it must m
  ![Kilburn Mill Contact Form.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Contact%20Form.png)
  The contact form is located below the history section. When a user signs up for the newsletter, their email will be sent to you in an email with the subject "NEW NEWSLETTER SUBSCRIBER - The Kilburn Mill at Clark's Cove". 
 
-## 2. The Gallery
+## 3. The Gallery
  ![Kilburn Mill Gallery.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Gallery.png)
 This page contains multiple **Image** components. In order to add more images to the gallery, navigate to the gallery.jsx file and add the following code below the current image components:
 ```javascript
@@ -137,7 +137,7 @@ import ImageOne from '../Assets/GalleryImages/ImageOne.jpeg'; //Top of the code/
 ```
 Following the same structure to change an image that is mentioned above, import an image to the top of the file, give it a unique name with no spaces, and change the "src" property to the new image name.
 
-## Further Questions
+## 4. Further Questions
 If there are any further questions regarding the use of this code, email **srayev12@gmail.com**
 
 React Email Services: https://dashboard.emailjs.com/admin
