@@ -145,6 +145,19 @@ function App() {
 export default App;
 ```
 
+### Adding Videos
+Adding videos is simple! Similar to the method used to add an image, import the mp4 file from the assets folder:
+
+```javascript
+import Video_Name from "../Assets/VideoName.mp4"
+```
+
+Then, add a video component:
+
+```javascript
+<video src={Video_Name} width="600" height="300" controls="controls" autoplay="true" />
+```
+
 ## 2. The Homepage
 To edit the content on the homepage of the website, navigate to the "home.jsx" file in the "client/src/Pages" directory. To edit the styling of the homepage, navigate to the "client/src/Styles/Home.css" file. 
 
