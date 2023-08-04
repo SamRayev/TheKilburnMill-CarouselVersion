@@ -29,7 +29,7 @@ In order to easily make changes to this codebase, follow the steps below.
    cd client
    ```
    
-10. 
+10. Now, once you are in the client directory enter the following code into the command line:
 
 ## Basic Changes
 NOTE: If any changes are made, make sure to save the project.
