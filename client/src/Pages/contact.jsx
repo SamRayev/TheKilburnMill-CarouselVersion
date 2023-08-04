@@ -9,7 +9,7 @@ const Contact = () => {
         e.preventDefault();
 
         try {
-        await emailjs.sendForm('service_xkdeb51', 'template_kk3vnft', form.current, 'mwL-BIF7A2BTUfsXe')
+        await emailjs.sendForm('service_xkdeb51', 'template_kk3vnft', form.current, 'mwL-BIF7A2BTUfsXe') // Change these ID's to the proper account ID's
         console.log('Email sent successfully');
         form.current.reset(); // Clear the form fields
         } catch (error) {
