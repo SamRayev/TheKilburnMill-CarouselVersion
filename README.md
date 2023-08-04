@@ -47,7 +47,13 @@ In order to easily make changes to this codebase, follow the steps below.
 This code in the command line will open a development version of the website in your default browser. Since this is only a development version, it will open in a URL called "http://localhost:3000/". Localhost means that this site is being locally hosted on your machine, meaning that it is not the public version of the site and only the person hosting it can access it. The benefit of this site being created with ReactJS, a Javascript framework, is that while the site is running, it can be actively updated to instantly see changes that are made to the code.
 
 To actively view changes made to the site, the local host server must be running. Then, if a user edits a file and saves it, Visual Studio Code will automatically refresh the page in your browser and show the updated changes.
-   
+
+## IMPORTANT
+After setting up the virtual development environment, head to https://dashboard.emailjs.com and create an account.
+Watch the following video to set up the account properly: https://www.youtube.com/watch?v=I4DKr1JLC50&t=856s
+Below are two premade templates for the Newsletter and Contact Emails:
+
+
 ## 1. Basic Changes
 *NOTE: If any changes are made, make sure to save the project.*
 
