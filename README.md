@@ -30,11 +30,10 @@ In order to easily make changes to this codebase, follow the steps below.
    cd client
    ```
    
-8. This is the final step to set up your project. Once you are in the client directory, enter the following code into the command line:
+8. This is the final step to set up your project and enable you to run the site. Once you are in the client directory, enter the following code into the command line to install all the necessary dependencies in the package.json file:
    ```console
    npm install
    ```
-   This will install all the necessary dependencies in the package.json file and will enable you to run the site.
    
 9. Now, to start the site, enter the following code into the command line:
    ```console
