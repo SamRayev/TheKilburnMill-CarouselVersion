@@ -3,7 +3,14 @@
 The following explains the use and maintenance of the Kilburn Mill website.
 The languages used to create this website are **Javascript, CSS, and HTML**. **Javascript** is responsible for the website's functionality, such as handling the submitted emails and page sizing to make the content fit different screen sizes. Each page has its own respective "Page Name".jsx file. Every page is available in the **"client/src/Pages"** directory. Additionally, each page contains multiple components, such as its header, footer, etc. These components are located in the **"client/src/Components"** directory. **CSS** is responsible for the styling of the page and each component - how each of the elements on the page look and are oriented. Every page has its own stylesheet/CSS file, which is available in the **"client/src/Styles"** directory; however, there is one CSS file in the main directory called **App.css**, which handles styling across every page of the website. For example, the font that the website uses is controlled in this CSS file. Additionally, every image is located in the **"Assets"** folder. 
 
+## How to Open the Code in Developer Mode
+In order to easily make changes to this codebase, follow the steps below. 
+1. You need to open this code in an IDE (Integrated Developing Environment). One popular and easy-to-use IDE that can be downloaded on Mac, Linux, and Windows systems is **Visual Studio Code**. Click the following link to install Visual Studio Code: https://code.visualstudio.com/download.
+2. After Visual Studio Code is installed, install NodeJS here: https://nodejs.org/en/download. Within Visual Studio Code, you will need to enter a couple of basic codes into the command line. NodeJS is necessary for entering these pieces of code and making them work. 
+
+
 ## Basic Changes
+NOTE: If any changes are made, make sure to save the project.
 
 ### Changing an Image
 Changing an image on a page is relatively simple!
@@ -46,6 +53,8 @@ The first line imports the font from the web. Fonts can be found here: https://f
 After creating the project, you will be brought to the following page seen below. Click **@import** in the sentence <ins>"If you'd like to use fonts in HTML email, use the @import link." </ins>
 
 ![Kilburn Mill Font Two.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Font%20Two.png)
+
+Copy the import URL. In this example it is **@import url("https://use.typekit.net/gao5dmc.css");**. Replace the old import statement at the top of the CSS file with the new one. Now, copy the CSS code for the font-family that is also shown below. In this case, it is **font-family: "source-serif-pro", serif;**. Simply delete the current line in the **:root** section of the code shown above and paste the new line in its place. 
 ![Kilburn Mill Font Three.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Font%20Three.png)
 ## 1. The Homepage
 To edit the content on the homepage of the website, navigate to the "home.jsx" file in the "client/src/Pages" directory. To edit the styling of the homepage, navigate to the "client/src/Styles/Home.css" file. 
