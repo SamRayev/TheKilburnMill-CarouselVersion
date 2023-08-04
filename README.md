@@ -51,6 +51,7 @@ To actively view changes made to the site, the local host server must be running
 ## IMPORTANT
 After setting up the virtual development environment, head to https://dashboard.emailjs.com and create an account.
 Watch the following video to set up the account properly: https://www.youtube.com/watch?v=I4DKr1JLC50&t=856s
+
 Below are two premade templates for the Newsletter and Contact Emails:
 
 ![Kilburn Mill Banner.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Newsletter%20Template.png)
