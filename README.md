@@ -53,6 +53,11 @@ After setting up the virtual development environment, head to https://dashboard.
 Watch the following video to set up the account properly: https://www.youtube.com/watch?v=I4DKr1JLC50&t=856s
 Below are two premade templates for the Newsletter and Contact Emails:
 
+![Kilburn Mill Banner.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Newsletter%20Template.png)
+
+![Kilburn Mill Banner.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Contact%20Template.png)
+
+Replace the proper id codes in the **home.jsx** and **contact.jsx** files.
 
 ## 1. Basic Changes
 *NOTE: If any changes are made, make sure to save the project.*
