@@ -11,8 +11,7 @@ In order to easily make changes to this codebase, follow the steps below.
 
 3. Finally, navigate to the following link to install Git: https://github.com/git-guides/install-git. Git is used for managing basic functionality that is needed for downloading the code.  
 
-4. In Visual Studio Code, open a new terminal as it is shown below:
-![Kilburn Mill Visual Studio Code One.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Visual%20Studio%20Code%20One.png)
+4. In Visual Studio Code, open a new terminal as it is shown below: ![Kilburn Mill Visual Studio Code One.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Visual%20Studio%20Code%20One.png)
 
 6. In the command terminal, enter the following:
 ```console
