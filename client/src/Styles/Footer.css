@@ -1,9 +1,9 @@
 /* Footer */
 .footer {
-    background: black;
+    background: black; /* The Footer Background Color */
     color: white;
     width: 100%;
-    border-bottom: 20px solid #0099ff;
+    border-bottom: 20px solid #0099ff; /* The Bottom Border Color */
     margin-top: auto;
 }
 
