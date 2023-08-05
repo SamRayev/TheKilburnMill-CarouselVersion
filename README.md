@@ -6,7 +6,7 @@ The languages used to create this website are **Javascript, CSS, and HTML**. **J
 
 **CSS** is responsible for the styling of the page and each component - how each of the elements on the page look and are oriented. Every page has its own stylesheet/CSS file, which is available in the **"client/src/Styles"** directory; however, there is one CSS file in the main directory called **App.css**, which handles styling across every page of the website. For example, the font that the website uses is controlled in this CSS file. Additionally, every image is located in the **"Assets"** folder. 
 
-## How to Edit the Code
+## 1. How to Edit the Code
 In order to easily make changes to this codebase, follow the steps below. 
 1. You need to open this code in an IDE (Integrated Developing Environment). One popular and easy-to-use IDE that can be downloaded on Mac, Linux, and Windows systems is **Visual Studio Code**. Click the following link to install Visual Studio Code: https://code.visualstudio.com/download.
 
@@ -48,7 +48,7 @@ This code in the command line will open a development version of the website in 
 
 To actively view changes made to the site, the local host server must be running. Then, if a user edits a file and saves it, Visual Studio Code will automatically refresh the page in your browser and show the updated changes.
 
-## IMPORTANT
+## 2. IMPORTANT
 After setting up the virtual development environment, head to https://dashboard.emailjs.com and create an account.
 Watch the following video to set up the account properly: https://www.youtube.com/watch?v=I4DKr1JLC50&t=856s
 
@@ -60,7 +60,7 @@ Below are two premade templates for the Newsletter and Contact Emails:
 
 Replace the proper id codes in the **home.jsx** and **contact.jsx** files.
 
-## 1. Basic Changes
+## 3. Basic Changes
 *NOTE: If any changes are made, make sure to save the project.*
 
 ### Changing an Image
@@ -160,7 +160,7 @@ Then, add a video component:
 <video src={Video_Name} width="600" height="300" controls="controls" autoplay="true" />
 ```
 
-## 2. The Homepage
+## 4. The Homepage
 To edit the content on the homepage of the website, navigate to the "home.jsx" file in the "client/src/Pages" directory. To edit the styling of the homepage, navigate to the "client/src/Styles/Home.css" file. 
 
  #### The Hero Image 
@@ -195,7 +195,7 @@ The **"Image_Name"** can be called whatever the user prefers; however, it must m
  ![Kilburn Mill Contact Form.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Contact%20Form.png)
  The contact form is located below the history section. When a user signs up for the newsletter, their email will be sent to you in an email with the subject "NEW NEWSLETTER SUBSCRIBER - The Kilburn Mill at Clark's Cove". 
 
-## 3. The Gallery
+## 5. The Gallery
  ![Kilburn Mill Gallery.png](https://github.com/SamRayev/TheKilburnMill-OfficialWebsite/blob/main/client/src/Assets/GithubImages/Kilburn%20Mill%20Gallery.png)
 This page contains multiple **Image** components. In order to add more images to the gallery, navigate to the gallery.jsx file and add the following code below the current image components:
 ```javascript
@@ -205,8 +205,11 @@ import ImageOne from '../Assets/GalleryImages/ImageOne.jpeg'; //Top of the code/
 ```
 Following the same structure to change an image that is mentioned above, import an image to the top of the file, give it a unique name with no spaces, and change the "src" property to the new image name.
 
-## 4. Editing the Map
+## 6. Editing the Map and Directory List
+Currently, the map on the directory page shows the suite numbers in their proper locations; however, this can be easily updated to show current or new tenants' information.
 Visit https://www.google.com/maps/d/edit?mid=1CpjrqSU8ZoJJAdINTPPQi_Hf5Bk6IaE&usp=sharing to edit the map.
+
+In order to update the directory list below the map, simply navigate to the **directory.jsx** file in the **/client/src/pages** directory. This file contains list elements, which resemble the following example: <li>TENANT NAME</>. Just change the text in between the <li> </li> tags and save the file.
 
 ## Further Questions
 If there are any further questions regarding the use of this code, email **srayev12@gmail.com**
