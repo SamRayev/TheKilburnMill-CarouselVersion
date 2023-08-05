@@ -205,7 +205,10 @@ import ImageOne from '../Assets/GalleryImages/ImageOne.jpeg'; //Top of the code/
 ```
 Following the same structure to change an image that is mentioned above, import an image to the top of the file, give it a unique name with no spaces, and change the "src" property to the new image name.
 
-## 4. Further Questions
+## 4. Editing the Map
+Visit https://www.google.com/maps/d/edit?mid=1CpjrqSU8ZoJJAdINTPPQi_Hf5Bk6IaE&usp=sharing to edit the map.
+
+## Further Questions
 If there are any further questions regarding the use of this code, email **srayev12@gmail.com**
 
 React Email Services: https://dashboard.emailjs.com/admin
